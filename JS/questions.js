@@ -9,6 +9,7 @@ const quizWithImages = [
       { text: 'path', isCorrect: false, score: 0 },
       { text: 'link', isCorrect: false, score: 0 },
     ],
+    time: 20
   },
   {
     question: 'Quale tag HTML è usato per creare una tabella?',
