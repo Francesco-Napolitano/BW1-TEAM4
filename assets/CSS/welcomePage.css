@@ -1,0 +1,39 @@
+body{ background-image: url(../CSS/bg.jpg);
+    background-size: cover;
+    background-position:top;
+    font-family:"outfit", sans-serif;
+}
+
+#logo{
+    height: 3rem;
+    margin-top:3rem;
+    margin-left:7rem;
+    
+}
+h1{    
+    color: white;
+    font-size: 60px;}
+    h1 span {
+        font-weight:bold;
+    }
+
+    h2 {
+        
+        color:#D20094;
+        font-size:30px;
+        margin-top: 2rem;
+        font-weight:600;
+    }
+    p{color:white;
+        line-height:1.5rem;
+    
+font-size:15px;
+margin-top:1rem;}
+
+ul{margin-top:4rem;
+}
+ul li{
+    color: white;
+    font-size:15px;
+
+}
