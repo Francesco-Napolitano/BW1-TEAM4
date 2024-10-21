@@ -9,6 +9,7 @@ const questionsWithImage = [
       { text: 'path', isCorrect: false, score: 0 },
       { text: 'link', isCorrect: false, score: 0 },
     ],
+    time: 60,
     // Verranno aggiunti dinamicamente man mano che l'utente risponde
     // userAnswers: [],
     // questionScore: 0,
@@ -22,6 +23,7 @@ const questionsWithImage = [
       { text: '<tbl>', isCorrect: false, score: 0 },
       { text: '<tab>', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText: 'Come si aggiunge una classe a un elemento in JavaScript?',
@@ -36,6 +38,7 @@ const questionsWithImage = [
       { text: "element.addClass('nomeClasse')", isCorrect: false, score: 0 },
       { text: "element.class = 'nomeClasse'", isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText:
@@ -47,6 +50,7 @@ const questionsWithImage = [
       { text: 'font-color', isCorrect: false, score: 0 },
       { text: 'background-color', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText:
@@ -58,6 +62,7 @@ const questionsWithImage = [
       { text: '*', isCorrect: false, score: 0 },
       { text: '::', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText:
@@ -79,6 +84,7 @@ const questionsWithImage = [
       { text: '<pic>', isCorrect: false, score: 0 },
       { text: '<src>', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText:
@@ -90,6 +96,7 @@ const questionsWithImage = [
       { text: 'size', isCorrect: false, score: 0 },
       { text: 'font', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText: 'Quale tag HTML definisce una intestazione?',
@@ -100,6 +107,7 @@ const questionsWithImage = [
       { text: '<head>', isCorrect: false, score: 0 },
       { text: '<title>', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText: 'Come si definisce un commento in JavaScript?',
@@ -110,6 +118,7 @@ const questionsWithImage = [
       { text: '/* Questo è un commento */', isCorrect: false, score: 0 },
       { text: '<!-- Questo è un commento -->', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText:
@@ -121,6 +130,7 @@ const questionsWithImage = [
       { text: 'text-weight', isCorrect: false, score: 0 },
       { text: 'bold', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText:
@@ -132,6 +142,7 @@ const questionsWithImage = [
       { text: 'load', isCorrect: false, score: 0 },
       { text: 'post', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText: 'Quale tag HTML è usato per creare un elenco numerato?',
@@ -142,6 +153,7 @@ const questionsWithImage = [
       { text: '<li>', isCorrect: false, score: 0 },
       { text: '<list>', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText:
@@ -153,6 +165,7 @@ const questionsWithImage = [
       { text: 'name', isCorrect: false, score: 0 },
       { text: 'label', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText:
@@ -164,6 +177,7 @@ const questionsWithImage = [
       { text: 'remove()', isCorrect: false, score: 0 },
       { text: 'splice()', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText: 'Come si specifica un font in CSS?',
@@ -174,6 +188,7 @@ const questionsWithImage = [
       { text: 'font-weight', isCorrect: false, score: 0 },
       { text: 'text-font', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText:
@@ -185,6 +200,7 @@ const questionsWithImage = [
       { text: '.', isCorrect: false, score: 0 },
       { text: '::', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText: 'Come si dichiara una variabile costante in JavaScript?',
@@ -195,6 +211,7 @@ const questionsWithImage = [
       { text: 'let', isCorrect: false, score: 0 },
       { text: 'constant', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText:
@@ -206,6 +223,7 @@ const questionsWithImage = [
       { text: 'pop()', isCorrect: false, score: 0 },
       { text: 'shift()', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText: 'Quale tag HTML si utilizza per creare un link ipertestuale?',
@@ -216,6 +234,7 @@ const questionsWithImage = [
       { text: '<href>', isCorrect: false, score: 0 },
       { text: '<url>', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText:
@@ -227,6 +246,7 @@ const questionsWithImage = [
       { text: '<span>', isCorrect: true, score: 1 },
       { text: '<font>', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText:
@@ -238,6 +258,7 @@ const questionsWithImage = [
       { text: 'method', isCorrect: false, score: 0 },
       { text: 'required', isCorrect: true, score: 1 },
     ],
+    time: 60,
   },
   {
     questionText:
@@ -249,6 +270,7 @@ const questionsWithImage = [
       { text: 'querySelector', isCorrect: true, score: 1 },
       { text: 'getClass', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText: 'Quali dei seguenti elementi sono semantici in HTML5?',
@@ -259,6 +281,7 @@ const questionsWithImage = [
       { text: '<div>', isCorrect: false, score: 0 },
       { text: '<article>', isCorrect: true, score: 1 },
     ],
+    time: 60,
   },
   {
     questionText:
@@ -274,6 +297,7 @@ const questionsWithImage = [
         score: 1,
       },
     ],
+    time: 60,
   },
   {
     questionText:
@@ -285,6 +309,7 @@ const questionsWithImage = [
       { text: '!=', isCorrect: true, score: 1 },
       { text: '&&', isCorrect: false, score: 0 },
     ],
+    time: 60,
   },
   {
     questionText:
@@ -304,6 +329,7 @@ const questionsWithImage = [
         score: 1,
       },
     ],
+    time: 60,
   },
   {
     questionText:
@@ -315,6 +341,7 @@ const questionsWithImage = [
       { text: 'load', isCorrect: false, score: 0 },
       { text: 'keydown', isCorrect: true, score: 1 },
     ],
+    time: 60,
   },
   {
     questionText:
@@ -326,5 +353,6 @@ const questionsWithImage = [
       { text: 'for', isCorrect: true, score: 1 },
       { text: 'switch', isCorrect: true, score: 1 },
     ],
+    time: 60,
   },
 ]
